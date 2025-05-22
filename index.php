@@ -9,6 +9,7 @@ if (!isset($_SESSION['authenticated'])) {
 
 <!DOCTYPE html>
 <html>
+  
   <head>
     <title>Abdullah</title>
   </head>
@@ -19,7 +20,6 @@ if (!isset($_SESSION['authenticated'])) {
   </body>
 
   <footer>
-
     <p><a href="/logout.php">Click here to Logout</a></p>
 
 </html>

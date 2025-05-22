@@ -1,6 +1,14 @@
+<?php
+session_start();
+
+if (isset($_SESSION['failed_attempts'])) {
+    echo '<p style="color:red;">Login failed. Please try again.</p>';
+  }
+?>
+
 <!DOCTYPE html>
 <html>
-
+  
   <head>
     <title>Login</title>
   </head>
