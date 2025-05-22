@@ -23,6 +23,8 @@
       $_SESSION['failed_attempts'] = $_SESSION['failed_attempts'] + 1;
     
     }
+
+    header("Location: /login.php");
     echo "Unsuccessful Attempt Number: " . $_SESSION['failed_attempts'];
   
   }
