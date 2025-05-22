@@ -11,7 +11,7 @@
 
   if ($username == $valid_username && $password == $valid_password) {
     
-    $_SESSION['authenticated'] = 1
+    $_SESSION['authenticated'] = 1;
     header("Location: /index.php");
   
   } else {
